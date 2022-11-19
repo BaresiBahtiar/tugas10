@@ -28,7 +28,7 @@ class _FormScreenState extends State<FormScreen> {
           children: [
             Padding(
               padding: const EdgeInsets.all(10),
-              child: Text('Silahkan Login',
+              child: Text("Please Login",
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25)),
             ),
             //Text('Harap isi'),
@@ -55,7 +55,7 @@ class _FormScreenState extends State<FormScreen> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Color.fromARGB(255, 0, 105, 47),
+                backgroundColor: Color.fromARGB(255, 13, 167, 239),
                 padding: const EdgeInsets.symmetric(
                   horizontal: 30,
                   vertical: 20,

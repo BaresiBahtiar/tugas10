@@ -29,9 +29,9 @@ class _SignupState extends State<Signup> {
             Padding(
               padding: const EdgeInsets.all(18.0),
               child: Icon(
-                Icons.person,
+                Icons.person_add,
                 size: 150,
-                color: Color.fromARGB(255, 0, 105, 47),
+                color: Color.fromARGB(255, 15, 202, 226),
               ),
             ),
             Padding(
@@ -71,7 +71,7 @@ class _SignupState extends State<Signup> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Color.fromARGB(255, 0, 105, 47),
+                backgroundColor: Color.fromARGB(255, 15, 202, 226),
                 padding: const EdgeInsets.symmetric(
                   horizontal: 30,
                   vertical: 20,

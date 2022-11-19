@@ -14,36 +14,33 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(253, 254, 255, 1),
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Home'),
+        title: const Text('FROM LOGIN & REGISTER'),
       ),
       body: Center(
         child: Column(
           children: [
             Container(
-              margin: const EdgeInsets.all(10),
-              width: 600,
-              height: 400,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Icon(
-                Icons.person_add,
-                size: 350,
-                color: Colors.blueAccent,
-              ),
-            ),
+                margin: const EdgeInsets.all(10),
+                width: 600,
+                height: 400,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: Image.network(
+                  "https://magetan.satujam.com/wp-content/uploads/2016/05/nokia-logo-connecting-people.jpg?strip=all&lossy=1&ssl=1",
+                )),
             Column(
               children: [
-                Text('Selamat Datang',
+                Text('WELCOME',
                     style:
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 40)),
                 Text('',
                     style:
                         TextStyle(fontWeight: FontWeight.bold, fontSize: 40)),
-                Text('Silahkan Login Terlebih Dahulu!!!'),
-                Text('Jika belum mempunyai akun, harap regist')
+                Text("Don't have an account? Sign UP Now"),
               ],
             ),
             Row(
@@ -77,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: TextButton(
                     style: TextButton.styleFrom(
-                      backgroundColor: Color.fromARGB(255, 0, 105, 47),
+                      backgroundColor: Color.fromARGB(255, 4, 119, 13),
                       padding: const EdgeInsets.symmetric(
                         horizontal: 50,
                         vertical: 20,
